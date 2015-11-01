@@ -13,6 +13,8 @@
 #            untuk volume kubus rumusnya adalah
 #                sisi x sisi x sisi atau S x S x S
 
+# creator by RahmatEffendi
+
 #Pencarian untuk luas kubus
 def luas():
     sisi = float(raw_input("Masukkan Salah Satu sisi dari kubus: "))
