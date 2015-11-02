@@ -1,4 +1,4 @@
-#Program kedua ini berkaitan dengan bangun ruang BALOK
+﻿#Program kedua ini berkaitan dengan bangun ruang BALOK
 #pada program sederhana ini akan mengkalkulasikan pencarian dasar-dasar dari balok
 #mulai dari luas balok, keliling, volume dan juga diagonal ruang
 
@@ -22,14 +22,14 @@ def luas():
     luas = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi))
     print("Luas Balok adalah %d" %luas)
 
-#def diagonal(): 
-#    panjang = float(raw_input("Masukkan Panjang Balok: "))
-#    lebar = float(raw_input("Masukkan Lebar Balok: "))
-#    tinggi = float(raw_input("Masukkan TInggi Balok: "))
+def diagonal(): 
+    panjang = float(raw_input("Masukkan Panjang Balok: "))
+    lebar = float(raw_input("Masukkan Lebar Balok: "))
+    tinggi = float(raw_input("Masukkan TInggi Balok: "))
 
-#    #kalukulasikan pada rumus
-#    diagonal = float(math.sqrt(panjang**2 + lebar**2 + tinggi**2))
-#    print("Luas Balok adalah %d" %diagonal)
+    #kalukulasikan pada rumus
+    diagonal = float(math.sqrt(panjang**2 + lebar**2 + tinggi**2))
+    print("Luas Balok adalah %d" %diagonal)
 
 #Keliling Balok
 def keliling():
@@ -39,7 +39,7 @@ def keliling():
 
     #kalukulasikan pada rumus
     keliling = 4 * (panjang + lebar + tinggi)
-    print("Keliling Balok adalah %d" %keliling)
+    print("Keliling 59Balok adalah %d" %keliling)
 
 #Volume balok
 def volume():
@@ -51,13 +51,25 @@ def volume():
     volume = panjang * lebar * tinggi
     print("Volume Balok adalah %d" %volume)
 
+
+print("Program untuk mengkalkulasi rumus dasar-dasar Balok")
+print("Masukkan pilihan yang anda inginkan")
+print("Pilihannya Antara Lain:")
+print("1. Luas Balok")
+print("2. Diagonal Balok")
+print("3. Keliling Balok")
+print("4. Volume Balok")
+print("")
+
 #Masukkan Pilihan
 masukkan = int(raw_input("Masukkan Pilihan: "))
 if(masukkan == 1):
     luas()
 elif(masukkan == 2):
-    keliling()
+    diagonal()
 elif(masukkan == 3):
-     volume()
+     keliling()
+elif(masukkan == 4):
+    volume()
 else:
-    print("Hava anice day")
+    print("Hava a nice day")
