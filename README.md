@@ -11,7 +11,6 @@ Untuk matematika dasar yang telah di buat antara lain:
 	4. Kubus
 	5. Kerucut
 	6. Balok
-
 - Bangun Datar:
 	1. Trapesium
 	2. Segitiga
@@ -21,3 +20,5 @@ Untuk matematika dasar yang telah di buat antara lain:
 	6. Layang - Layang
 	7. Jajargenjang
 	8. Belah Ketupat
+
+	
