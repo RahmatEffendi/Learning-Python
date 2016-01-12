@@ -12,7 +12,7 @@ Untuk matematika dasar yang telah di buat antara lain:
 	5. Kerucut
 	6. Balok
 
-Bangun Datar:
+- Bangun Datar:
 	1. Trapesium
 	2. Segitiga
 	3. PersegiPanjang
