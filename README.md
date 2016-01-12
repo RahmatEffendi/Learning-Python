@@ -11,6 +11,13 @@ Untuk matematika dasar yang telah di buat antara lain:
 	4. Kubus
 	5. Kerucut
 	6. Balok
+- Bangun Ruang:
+	1. Tabung
+	2. Lingkaran
+	3. Limas
+	4. Kubus
+	5. Kerucut
+	6. Balok
 - Bangun Datar:
 	1. Trapesium
 	2. Segitiga
