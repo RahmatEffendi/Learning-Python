@@ -39,7 +39,7 @@ def keliling():
 
     #kalukulasikan pada rumus
     keliling = 4 * (panjang + lebar + tinggi)
-    print("Keliling 59Balok adalah %d" %keliling)
+    print("Keliling Balok adalah %d" %keliling)
 
 #Volume balok
 def volume():
